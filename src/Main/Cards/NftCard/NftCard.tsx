@@ -27,7 +27,7 @@ const NftCard: FC = () => {
                 <div className={style.imgBlog}>
                     <Card
                         hoverable
-                        style={{ width: "75vh", }}
+                        style={{ width: "75%", }}
                         cover={<Image width={"100%"} src={card.image_url}/>}
                     />
                 </div>

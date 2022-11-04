@@ -40,7 +40,7 @@
         justify-items: center;
         padding: 40px 0 115px 0;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 1%;
+        gap: 30px;
     }
 }
 
