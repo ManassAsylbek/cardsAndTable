@@ -1,0 +1,89 @@
+
+
+.description h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.description h3 {
+    font-family: 'Cardo';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #66A9EB;
+}
+
+.description h4 {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.eth {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 56px;
+    color: #353840;
+}
+
+.description div h4 {
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #525252;
+
+}
+@media (min-width: 769px){
+    .card {
+        height: calc(100vh - 64px);
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .imgBlog {
+        display: flex;
+        justify-content: end;
+        padding: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    .description {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 25px;
+        justify-self: left;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: calc(100vh - 64px);
+        display: grid;
+        align-content: center;
+        justify-items: center;
+
+    }
+    .imgBlog {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    .description {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 25px;
+        justify-self: left;
+    }
+}
